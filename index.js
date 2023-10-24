@@ -26,11 +26,27 @@ const questions = [
     name: "installation",
   },
   {
-    type: "checkbox",
+    type: "list",
         message: "what license are you using?",
         choices: ["MIT", "Boost", "Apache"],
         name:"license"
   },
+  {
+    type: "input",
+    message: "What is your name?",
+    name: "name",
+  },
+  {
+    type: "input",
+    message: "Enter the name of your github profile",
+    name: "github",
+  },
+  {
+    type: "input",
+    message: "Enter your email",
+    name: "email",
+  },
+
 ]
 
 
